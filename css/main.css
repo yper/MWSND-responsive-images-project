@@ -1,19 +1,5 @@
-/*
-
-Your styles go here!
-
-Hint! You'll probably want to start by styling:
-  * <body>
-  * <article>
-  * <h1>
-  * <img>
-
-I've left some boilerplate below for you.
-
-*/
-
 body {
-
+  width: 100%;
 }
 
 article {
@@ -23,7 +9,6 @@ article {
 
 h1 {
   font-variant: small-caps;
-  border-bottom: 1px #000 dashed;
   text-align: center;
 }
 
@@ -35,6 +20,24 @@ footer {
   text-align: center;
 }
 
-footer img {
-  margin: 30px 0;
+footer ul li {
+  display: inline;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 32px;
+  color: #ccc;
+  margin: 32px; 
+}
+
+footer ul li a:hover {
+  color: #000;
+}
+
+hr.styled {
+  width: 50em;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
